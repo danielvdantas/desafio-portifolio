@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: #22212C;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 40px;
+}
+
+.flex-container {
+    display: flex;
+    border: 1px sold white;
+    padding-bottom: 30px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+.profile,
+.links,
+.tecnologies,
+.experiences,
+.education,
+.myProjects,
+.project1,
+.project2,
+.recentPosts,
+.post1 {
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    width: 100%;
+    height: 260px;
+
+}
+
+.profileImg {
+    padding: 3px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #00FF00;
+}
+
+.profileName {
+    margin-bottom: 5px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #837E9F;
+}
+
+.jobTitle {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #837E9F;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    height: 310px;
+}
+
+.figure {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.map-pin {
+    filter: #837E9F;
+}
+
+.map-pin-label,
+.briefcase-label,
+.github-label,
+.linkedin-label,
+.twitter-label,
+.globe-label,
+.mail-label {
+    padding-left: 20px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F;
+}
+
+.tecnologies {
+    display: flex;
+    width: 100%;
+    height: 180px;
+}
+
+.experiences {
+    display: flex;
+    width: 100%;
+    height: 310px;
+}
+
+.education {
+    display: flex;
+    width: 100%;
+    height: 310px;
+}
+
+.projectsGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 30px;
+}
+
+.myProjects,
+.recentPosts {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.myProjects {
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myProjectsTitle {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #837E9F;
+}
+
+.showAllProjects {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #837E9F;
+}
+
+.projectList {
+    display: flex;
+    width: 100%;
+    height: 160px;
+    gap: 30px;
+}
+
+.project1,
+.project2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    color: #837E9F;
+}
+
+.project1Header,
+.project1Description,
+.project1Footer,
+.project2Header,
+.project2Description,
+.project2Footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.project1Description,
+.project1Footer,
+.project2Description,
+.project2Footer {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.project1Header,
+.project2Header {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.devIcon1,
+.devIcon2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #E7DE79;
+    border: 2px solid #837E9F;
+}
+
+.project1Footer,
+.project2Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.starGit1,
+.starGit2 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.DevLanguage1,
+.DevLanguage2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.postsGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 30px;
+}
+
+.recentPosts {
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+.recentPostsLabel {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    color: #837E9F;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.post1 {
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    height: 210px;
+    gap: 30px;
+}
+
+.postImg {
+    display: flex;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.post1Container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    color: #837E9F;
+}
+
+.post1Tittle,
+.post1Descrition {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.post1Subtitle,
+.post1HashTags {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.post1HashTags {
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #837E9F;
+}
